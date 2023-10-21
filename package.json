@@ -3,6 +3,10 @@
   "displayName": "LogWizardry",
   "description": "LogWizardry is a magical Visual Studio Code extension that enhances your coding experience by making debugging a breeze. With LogWizardry, you can conjure detailed console.log statements with just a flick of your code wand.",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charrx/logwizardry.git"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },

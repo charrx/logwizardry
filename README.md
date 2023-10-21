@@ -1,6 +1,6 @@
 # LogWizardry
 
-![LogWizardry Logo](logwizardrylogo.png)
+![LogWizardry Logo](https://github.com/charrx/logwizardry/raw/main/src/assets/logwizardrylogo.png)
 
 **LogWizardry** is a magical Visual Studio Code extension that enhances your coding experience by making debugging a breeze. With LogWizardry, you can conjure detailed console.log statements with just a flick of your code wand.
 
