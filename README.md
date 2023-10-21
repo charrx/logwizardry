@@ -44,9 +44,9 @@ const message = "Hello, LogWizardry!";
 Highlight the text, invoke the LogWizardry command, and witness the magic:
 
 ```javascript
-console.log("🥑 ――― file: app.js:1 ――― error:", message);
+console.log("🌙 ――― file: app.js:1 ――― error:", message);
 
-🚀 ――― file: app.js:1 ――― error: Hello, LogWizardry!
+🌙 ――― file: app.js:1 ――― error: Hello, LogWizardry!
 ```
 
 ## 🪄 Embrace the Magic

@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
         const selectionText = document.getText(selection);
 
         if (selectionText) {
-          const logText = `console.log('🥑 ――― file: ${document.fileName}:${
+          const logText = `console.log('🌙 ――― file: ${document.fileName}:${
             line.lineNumber + 1
           } ――― error:', ${selectionText});`;
           editor.insertSnippet(
@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
             positionAfterSelection
           );
         } else {
-          const logText = `console.log('🥑 ――― file: ${document.fileName}:${
+          const logText = `console.log('🌙 ――― file: ${document.fileName}:${
             line.lineNumber + 1
           } ――― error:', ${clipboardText});`;
 
