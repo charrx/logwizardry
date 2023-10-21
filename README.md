@@ -1,6 +1,8 @@
 # LogWizardry
 
-<img src="https://github.com/charrx/logwizardry/raw/main/src/assets/logwizardrylogo.png" width="200">
+<p align="center">
+  <img src="https://github.com/charrx/logwizardry/raw/main/src/assets/logwizardrylogo.png" width="250">
+</p>
 
 **LogWizardry** is a magical Visual Studio Code extension that enhances your coding experience by making debugging a breeze. With LogWizardry, you can conjure detailed console.log statements with just a flick of your code wand.
 
