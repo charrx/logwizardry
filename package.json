@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "logwizardry.helloWorld",
-        "title": "Hello World"
+        "command": "logwizardry.insertMagicalLog",
+        "title": "Insert Magical Log"
       }
     ]
   },
