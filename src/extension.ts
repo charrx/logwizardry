@@ -1,4 +1,5 @@
 import * as vscode from "vscode";
+import * as path from "path";
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
@@ -16,17 +17,17 @@ export function activate(context: vscode.ExtensionContext) {
         const selectionText = document.getText(selection);
 
         if (selectionText) {
-          const logText = `console.log('🌙 ――― file: ${document.fileName}:${
-            line.lineNumber + 1
-          } ――― error:', ${selectionText});`;
+          const logText = `console.log('🌙 ――― file: ${path.basename(
+            document.fileName
+          )}:${line.lineNumber + 1} ――― error:', ${selectionText});`;
           editor.insertSnippet(
             new vscode.SnippetString(logText),
             positionAfterSelection
           );
         } else {
-          const logText = `console.log('🌙 ――― file: ${document.fileName}:${
-            line.lineNumber + 1
-          } ――― error:', ${clipboardText});`;
+          const logText = `console.log('🌙 ――― file: ${path.basename(
+            document.fileName
+          )}:${line.lineNumber + 1} ――― error:', ${clipboardText});`;
 
           editor.insertSnippet(
             new vscode.SnippetString(logText),
