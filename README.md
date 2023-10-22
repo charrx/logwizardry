@@ -30,8 +30,8 @@ You can install LogWizardry directly from the Visual Studio Code Marketplace.
 Once installed, using LogWizardry is as easy as invoking the command:
 
 1. Open your JavaScript or TypeScript code file.
-2. Highlight the text you want to include in your console.log statement.
-3. Use the magic keybinding (customizable) or the Command Palette to create your console.log.
+2. Highlight or copy the text you want to include in your console.log statement.
+3. Use the magic keybinding (customizable) or the Command Palette using the command **Insert Magical Log** to insert your console.log.
 
 ## Example
 
