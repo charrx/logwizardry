@@ -17,6 +17,7 @@
   "license": "MIT",
   "activationEvents": [],
   "main": "./out/extension.js",
+  "publisher": "charrx",
   "contributes": {
     "commands": [
       {
